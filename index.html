@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon.png">
+    <title>Eunah Jung</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/64a2704de8.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hello, I'm <span>Eunah Jung</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="slider-area">
+        <div class="img-area">
+            <img src="/images/banners/banner v1-1.1.png">
+            <img src="/images/banners/banner v1-1.2.png">
+            <img src="/images/banners/banner v1-1.3.png">
+        </div>
+    </div> -->
+    <!-------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="row1">
+                        <img src="images/user.JPG">
+                    </div>
+                    <!-- <div id="row2">
+                        <img class="fblogo" src="/images/aws-certified-cloud-practitioner.png">
+                        <img class="fblogo" src="/images/professional-scrum-master-i-psm-i.png">
+                    </div> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Certified Cloud Practitioner and Scrum Master interested in digitally transforming businesses to benefit from more secure and efficient operations. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Quality Assurance</span><br>Manual & Automation Testing</li>
+                            <li><span>Project Management</span><br>Agile and Waterfall Methodologies</li>
+                            <li><span>3D Printing</span><br>Blender CAD</li>
+                            <div id="bottom">
+                                <img class="fblogo" src="/images/aws-certified-cloud-practitioner.png">
+                                <img class="fblogo" src="/images/professional-scrum-master-i-psm-i.png">
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Apple (Contractor)</span><br>Quality Engineer</li>
+                            <li><span>Hong Kong Jockey Club</span><br>IT Digital & Channels Solution Trainee</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of Hong Kong</span><br>Bachelor of Science (Chemistry and Mathematics)</li>
+                            <li><span>Chadwick International</span><br>IBDP</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-------------- services ------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Title 1</h2>
+                    <p>Description</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Title 2</h2>
+                    <p>Description</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Title 3</h2>
+                    <p>Description</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Title 1</h3>
+                    <p>Description</p>
+                    <a href="#"><i class="fa-regular fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Title 2</h3>
+                    <p>Description</p>
+                    <a href="#"><i class="fa-regular fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Title 3</h3>
+                    <p>Description</p>
+                    <a href="#"><i class="fa-regular fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"><i class="fa-solid fa-caret-up"></i></a>
+    </div>
+</div>
+<!-------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/eunah-jung/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ejung2017"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.instagram.com/jungeunah_/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="src/Eunah Jung CV.pdf" download><i class="fa-solid fa-square-caret-down"></i></a>
+
+                </div>               
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links"); 
+        var tabcontents = document.getElementsByClassName("tab-contents"); 
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+</html>
