@@ -296,7 +296,7 @@ nav ul li a:hover::after{
 }
 .contact p i{
     margin: auto 50px;
-    color: #ff004f;
+    color: #00c8e2;
     margin-right: 15px;
     font-size: 20px;
 }
@@ -315,6 +315,6 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #00c8e2;
     transform: translateY(-5px);
 }
